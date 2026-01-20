@@ -2,14 +2,57 @@
     color: white;
 }
 
+.color_green{
+    color: #00FF88;
+}
+
+.c351165{
+    background-color: #351165;
+    border-radius: 40px;
+    padding: 15px;
+}
+
+.wave{
+    color: purple;
+}
+
 .center{
     text-align: center;
+}
+
+.flex{
+    display: flex;
 }
 
 .nav_container{
     display: flex;
     justify-content: space-around;
     background-color: #412567;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.grid2{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.rowspan{
+    grid-row: span 2;
+}
+
+.colspan{
+    grid-column: span 2;
 }
 
 .image-container {
@@ -67,10 +110,6 @@
 
 .footer_container{
     text-align: center;
-}
-
-.wave{
-    color: purple;
 }
 
 .footer4{
